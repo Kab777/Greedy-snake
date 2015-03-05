@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <string.h>
-
+// Passed running in VS2010
 int  snake_node=1;
 int  snake_length[50][2]={31,12};
 int  snake_head[2]={31,12};

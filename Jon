@@ -83,7 +83,7 @@ void direction()
 		snake_direction=keyhit;
 	else if(keyhit==27)exit(0);
 }
-void state()
+void state(){
 	if(snake_head[0]<1||snake_head[0]>62||snake_head[1]<1||snake_head[1]>22)snake_life=1;
 
 }
@@ -149,7 +149,7 @@ void update_maxtrix()
 	snake_length[0][1]=snake_head[1];
 
 		for(i=3;i<snake_node;i++)
-     if(snake_length[i][0]==snake_head[0]&&snake_length[i][1]==snake_head[1])
+     if(snake_length[i][0]==snake_head[0]&&snake_length[i][1]==snake_head[1]){
      {
                
                snake_life=1;

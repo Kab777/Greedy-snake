@@ -158,7 +158,7 @@ void update_maxtrix()
         }
 }
 
-void main()
+int main()
 {
 	system("title JY GAME");
 	system("mode con cols=62 lines=23");
@@ -203,4 +203,5 @@ void main()
 			break;
 		}
 	}	
+	return 0;
 }
